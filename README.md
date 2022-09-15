@@ -8,7 +8,7 @@ Evaluate the outcomes of Kickstarter campaigns based on launch date and financin
 ## Analysis and Challenges
 
 ### Analysis of Outcomes Based on Launch Date
-Using information provided on the details of 4,114 Kickstarter compaigns, data was first analyzed using a pivot table to determine the number of successful, failed, and canceled campaigns based on the months in which they were launched. It was further filtered by Parent Category to view only results labeled "theater". The option to filter by Year was also included, though not used in this analysis. 
+Using information provided on the details of 4,114 Kickstarter compaigns launched between 2009-2017, data was first analyzed using a pivot table to determine the number of successful, failed, and canceled campaigns based on the months in which they were launched. It was further filtered by Parent Category to view only results labeled "theater". The option to filter by Year was also included, though not used in this analysis. 
 
 This data was visualized with a line graph. 
 
@@ -40,7 +40,10 @@ Also within the CountIfs formulas, the data ranges are hard-coded into the calcu
 * For a successful campaign within the Plays subcategory, the ideal amount of money to ask for is less than $1,000. Of all the data ranges, this one has the highest percentage rate for success and the lowest for failure. 
 * The next best option for a succesful Plays campaign is a goal amount from $1,000-$4,999. The percentages of success and failure at this level are very close to the lowest data range, but the number of campaigns launched is much greater (534 projects compared to 186). That provides a more robust data set to calculate with, particularly since the next highest rates of success have fewer than 10 total projects in that data range. 
 
+### Dataset Limitations
+* Both graphs differ on how they are filtered (one is by a Parent category, the other a Subcategory). To best compare the ideal conditions for a successful campaign, it would help to keep that variable consistent.
+* There are very few campaigns within the Plays subcategory in the higher goal amounts, which means that in some specific data ranges there are fewer than 10 total projects with which to calculate the percentages (a 67% success rate sounds pretty good until you realize there were only 3 total projects in that range). It would help to have a dataset that included information from a longer time span to confirm the accuracy of the percentages which are calculated using a small number of total projects. 
 
-- What are some limitations of this dataset?
+###
 
 - What are some other possible tables and/or graphs that we could create?
