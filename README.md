@@ -48,9 +48,7 @@ Also within the CountIfs formulas, the data ranges are hard-coded into the calcu
 * It would be useful to have the same sets of graphs for each variable being evaluated. 
   * That would include using a pivot table to calculate the raw number of successful, failed, and canceled projects when evaluated by launch date and funding goal. 
   * It would also include calculations to convert the raw data to percentages when evaluating the outcomes by launch date and funding goal.
-* Similarly, it would be interesting to see how the data changes when it is filtered across both domains by different categories/subcategories.
+* Similarly, it would be interesting to see how the data changes when it is filtered across both domains by the same categories/subcategories.
   * Having a chart of Play outcomes based on Launch Date would be an interesting contrast to Theater outcomes based on Launch Date.
   * Including a chart of Theater outcomes based on Goals would provide a larger dataset than Plays based on Goals, and it would be useful to find out if the percentages change dramatically when drilling down to a Subcategory from a Parent Category.
-* 
-
-- What are some other possible tables and/or graphs that we could create?
+* Other useful domains to evaluate outcomes by would be whether or not the campaign was a Staff Pick or Spotlighted. This could influence decisions on whether or not it is useful to spend time/money paying or campaigning to receive either designation. 
