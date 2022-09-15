@@ -26,9 +26,9 @@ This data was also visualized with a line graph.
 ### Challenges and Difficulties Encountered
 In order to analyze the original dataset, additional columns had to be made to convert column data into usable category and date formats. 
 
-The first formulas written using the CountIfs function used relative instead of absolute cell references. When the formula was subsequently copied into other rows and columns, the columns referenced in the Kickstarter data set automatically shifted resulting in inaccurate calculations. A Testing sheet was added to the workbook, and within it a pivot table was used to count the number of each campaign outcomes at individual funding amounts. These amounts were then grouped into the ranges used in the original calculations to check the accuracy of the data. This highlighted the error within the original formula, and further formulas used absolute cell references to achieve succesful calculations.  
+The first formulas written using the CountIfs function used relative instead of absolute cell references. When the formulas were subsequently copied into other rows and columns, the columns referenced in the Kickstarter data set automatically shifted and returned inaccurate calculations. A Testing sheet was added to the workbook, and within it a pivot table was used to count the number of each campaign outcome at individual funding amounts. These amounts were then grouped into the ranges used in the original calculations to check the accuracy of the data. This highlighted the error within the original formula, and further formulas used absolute cell references appropriately.  
 
-
+Also within the CountIfs formulas, the data ranges are hard-coded into the calculations. Adding a column to transform the text data in the Goal column to mathmatical representations (e.g., "<1000" instead of "Less than 1000") would provide greater flexibility as well as fewer opportunities for errors. 
 
 ## Results
 
