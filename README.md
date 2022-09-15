@@ -26,6 +26,10 @@ This data was also visualized with a line graph.
 ### Challenges and Difficulties Encountered
 In order to analyze the original dataset, additional columns had to be made to convert column data into usable category and date formats. 
 
+The first formulas written using the CountIfs function used relative instead of absolute cell references. When the formula was subsequently copied into other rows and columns, the columns referenced in the Kickstarter data set automatically shifted resulting in inaccurate calculations. A Testing sheet was added to the workbook, and within it a pivot table was used to count the number of each campaign outcomes at individual funding amounts. These amounts were then grouped into the ranges used in the original calculations to check the accuracy of the data. This highlighted the error within the original formula, and further formulas used absolute cell references to achieve succesful calculations.  
+
+
+
 ## Results
 
 - What are two conclusions you can draw about the Outcomes based on Launch Date?
