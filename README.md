@@ -1,9 +1,10 @@
-# Kickstarting with Excel - An Analysis of Kickstarter Campaigns
+# Kickstarting with Excel
 
 ## Overview of Project
 Performing analysis on Kickstarter data to uncover trends
 
 ### Purpose
+Evaluate the outcomes of Kickstarter campaigns based on launch date and original financing goals
 
 ## Analysis and Challenges
 
