@@ -32,6 +32,10 @@ Also within the CountIfs formulas, the data ranges are hard-coded into the calcu
 
 ## Results
 
+### Theater Outcomes Based on Launch Date
+* The number of failed campaigns in the Theater category does not fluctuate dramatically over the course of a year. With the exception of December (when succesful and failed campgaign numbers are nearly equal) the number of failed campaigns correlates with the increase or decrease in succesful campaigns across months (e.g., the number of both successful and failed campaigns in February are higher than they were in January. From February to March, both numbers decrease).
+* The best month to launch a succesful Kickstarter campaign in the Theater category is May. It has the highest rate of success when compared to the rest of the year, and the corresponding rise in failed campaigns from April to May (12) is not nearly as high as the rise in succesful campaigns (40)
+
 - What are two conclusions you can draw about the Outcomes based on Launch Date?
 
 - What can you conclude about the Outcomes based on Goals?
