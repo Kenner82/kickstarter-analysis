@@ -26,7 +26,7 @@ This data was also visualized with a line graph.
 ### Challenges and Difficulties Encountered
 In order to analyze the original dataset, additional columns had to be made to convert column data into usable category and date formats. 
 
-The first formulas written using the CountIfs function used relative instead of absolute cell references. When the formulas were subsequently copied into other rows and columns, the columns referenced in the Kickstarter data set automatically shifted and returned inaccurate calculations. A Testing sheet was added to the workbook, and within it a pivot table was used to count the number of each campaign outcome at individual funding amounts. These amounts were then grouped into the ranges used in the original calculations to check the accuracy of the data. This highlighted the error within the original formula, and further formulas used absolute cell references appropriately.  
+The first formulas written using the CountIfs function used relative instead of absolute cell references. When the formulas were subsequently copied into other rows and columns, the columns referenced in the Kickstarter dataset automatically shifted and returned inaccurate calculations. A Testing sheet was added to the workbook, and within it a pivot table was used to count the number of each campaign outcome at individual funding amounts. These amounts were then grouped into the ranges used in the original calculations to check the accuracy of the data. This highlighted the error within the original formula, and further formulas used absolute cell references appropriately.  
 
 Also within the CountIfs formulas, the data ranges are hard-coded into the calculations. Adding a column to transform the text data in the Goal column to mathmatical representations (e.g., "<1000" instead of "Less than 1000") would provide greater flexibility as well as fewer opportunities for errors. 
 
@@ -34,7 +34,7 @@ Also within the CountIfs formulas, the data ranges are hard-coded into the calcu
 
 ### Theater Outcomes Based on Launch Date
 * The number of failed campaigns in the Theater category does not fluctuate dramatically over the course of a year. With the exception of December (when succesful and failed campgaign numbers are nearly equal) the number of failed campaigns correlates with the increase or decrease in succesful campaigns across months (e.g., the number of both successful and failed campaigns in February are higher than they were in January. From February to March, both numbers decrease).
-* The best month to launch a succesful Kickstarter campaign in the Theater category is May. It has the highest rate of success when compared to the rest of the year, and the corresponding rise in failed campaigns from April to May (12) is not nearly as high as the rise in succesful campaigns (40)
+* The best month to launch a succesful Kickstarter campaign in the Theater category is May. It has the highest rate of success when compared to the rest of the year, and the corresponding rise in failed campaigns from April to May (12) is not nearly as high as the rise in succesful campaigns (40).
 
 ### Outcomes Based on Goals
 * For a successful campaign within the Plays subcategory, the ideal amount of money to ask for is less than $1,000. Of all the data ranges, this one has the highest percentage rate for success and the lowest for failure. 
