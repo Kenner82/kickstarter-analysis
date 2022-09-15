@@ -36,9 +36,10 @@ Also within the CountIfs formulas, the data ranges are hard-coded into the calcu
 * The number of failed campaigns in the Theater category does not fluctuate dramatically over the course of a year. With the exception of December (when succesful and failed campgaign numbers are nearly equal) the number of failed campaigns correlates with the increase or decrease in succesful campaigns across months (e.g., the number of both successful and failed campaigns in February are higher than they were in January. From February to March, both numbers decrease).
 * The best month to launch a succesful Kickstarter campaign in the Theater category is May. It has the highest rate of success when compared to the rest of the year, and the corresponding rise in failed campaigns from April to May (12) is not nearly as high as the rise in succesful campaigns (40)
 
-- What are two conclusions you can draw about the Outcomes based on Launch Date?
+### Outcomes Based on Goals
+* For a successful campaign within the Plays subcategory, the ideal amount of money to ask for is less than $1,000. Of all the data ranges, this one has the highest percentage rate for success and the lowest for failure. 
+* The next best option for a succesful Plays campaign is a goal amount from $1,000-$4,999. The percentages of success and failure at this level are very close to the lowest data range, but the number of campaigns launched is much greater (534 projects compared to 186). That provides a more robust data set to calculate with, particularly since the next highest rates of success have fewer than 10 total projects in that data range. 
 
-- What can you conclude about the Outcomes based on Goals?
 
 - What are some limitations of this dataset?
 
